@@ -42,7 +42,7 @@ public class ProductController {
 
 
     
-    @CrossOrigin(origins = "https://team-7-project.herokuapp.com")
+    @CrossOrigin(origins = "https://team-6-project.herokuapp.com")
     @GetMapping ("/id/{id}" )
     @ResponseBody
     Product getProductById (@PathVariable String id) {
